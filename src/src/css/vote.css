@@ -1,0 +1,111 @@
+h1{
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 15px;
+}
+table{
+    width:100%;
+    table-layout: fixed;
+}
+.tbl-header{
+    background-color: rgba(255,255,255,0.3);
+    text-align: center;
+
+}
+.tbl-content{
+    height:250px;
+    overflow-x:auto;
+    margin-top: 0px;
+    border: 1px solid rgba(255,255,255,0.3);
+    text-align: center;
+}
+th{
+    padding: 20px 15px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+
+
+}
+td{
+    padding: 20px;
+    text-align: center;
+    vertical-align:middle;
+    font-weight: 300;
+    font-size: 15px;
+    color: #fff;
+    border-bottom: solid 1px rgba(255,255,255,0.1);
+
+}
+table tr td {
+    border-right: 3px solid rgba(255,255,255,0.1);
+    border-bottom: 3px solid rgba(255,255,255,0.1);
+    border-left: 3px solid rgba(255,255,255,0.1);
+
+}
+
+
+
+/* demo styles */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+body{
+    background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+    background: linear-gradient(to right, #25c481, #25b7c4);
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    margin: 50px;
+}
+
+
+/* for custom scrollbar for webkit browser*/
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+.parent {
+    border: none;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+
+select {
+    appearance: none;
+    position: center;
+    outline: 0;
+    background: #25c481;
+    background-image: none;
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid rgba(255,255,255,0.3);
+    border-radius: 3px;
+}
+
+.select {
+    position: center;
+    display: inline-block;
+    width: 15em;
+    height: 3.5em;
+    line-height: 3;
+    overflow: hidden;
+    border-radius: .25em;
+    padding-bottom: 10px;
+
+}
