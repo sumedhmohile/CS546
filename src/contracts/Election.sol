@@ -27,7 +27,6 @@ contract Election is ERC721, Ownable {
         addCandidate("Donald Trump");
         addCandidate("Barrack Obama");
         addCandidate("George Bush");
-
     }
 
     function addCandidate(string memory _candidateName) private {
